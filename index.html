@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <title> Small Project for Invoice</title>
+  
+        <style>
+            table{
+                width:600px;
+                text-align:left;
+                background-color: white;
+                margin-left: auto;
+                margin-right:auto;
+            }
+            table, td, th {
+               border: 1px  solid #aaa;
+               border-collapse:collapse; 
+               padding: 8px;
+               line-height:1.3;
+
+            
+            }
+            th{
+                background-color: lightblue;
+            }
+            .label{
+                font-weight: 600px;
+
+            }
+        </style>
+   
+    </head>
+        
+        <body style="background-color: #f2f6ff">
+            <table>
+            <tr>
+                <th colspan="3">Invoice number#123</th>
+                <th>20th July 2020</th>
+            </tr>
+
+            <tr>
+                <td colspan ="2">
+                    <span class ="label">Pay To:</span><br>
+                    Shankar Pandey Company<br>
+                    10 Rosslyn Road <br>
+                    Invermay, 7248
+                </td>
+
+                <td colspan="2">
+                    <span class="label">Customer:</span><br>
+                     Bikram Pandey<br>
+                     Purna Niwas<br>
+                     Lamachaur<br>
+                </td>
+            </tr>
+            <tr>
+                <th>Name/Description</th>
+                <th>Qty.</th>
+                <th>MRP</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+              <td>Biryani</td>
+              <td>3</td>
+              <td>400</td>
+              <td>1200</td>  
+            </tr>
+            <tr>
+                <td>Burger</td>
+                <td>3</td>
+                <td>200</td>
+                <td>600</td>  
+              </tr>
+              <tr>
+                  <th colspan="3">Subtotal:</th>
+                  <td>1800</td>
+              </tr>
+              <tr>
+                  <th colspan="2">Tax</th>
+                  <td>10%</td>
+                  <td>180</td>
+                  
+              </tr>
+              <tr>
+                  <th colspan="3">Grand Total</th>
+                  <td>Rs 1620</td>
+              </tr>
+            </table>
+        </body>
+
+</html>
